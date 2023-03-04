@@ -5,7 +5,7 @@ void Library(char title[],char author[],int pages, bool read){
   printf("\nBook authoor: %s",author);
   printf("\nBook pages: %d",pages);
   if(read){
-  printf("\nRead Status:Finished reading");
+  printf("\nBook Status:Finished reading,");
     }
 else{
   printf("\nBook Completion:Not yet..!!!");
